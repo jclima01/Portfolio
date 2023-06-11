@@ -1,20 +1,21 @@
-import Nav from "./components/Nav/Nav.jsx"
-import Portfolios from "./components/Portfolios/Portfolios.jsx"
-import Home from "./components/Home/Home.jsx"
-import Contact from "./components/Contact/Contact.jsx"
-import Skills from "./components/Skills/Skills.jsx"
+import Nav from "./components/Nav/Nav.jsx";
+import Home from "./components/Home/Home.jsx";
+import Contact from "./components/Contact/Contact.jsx";
+import Skills from "./components/Skills/Skills.jsx";
+import { Route, Routes } from "react-router-dom";
+import About from "./components/About/About.jsx";
+import Work from "./components/Work/Work.jsx";
 function App() {
-
   return (
-    <div className="grid grid-rows-[auto,auto,auto,auto,auto]">
-      <Nav/>
-      <Home/>
-      <Portfolios />
+    <div className="font-outfit">
+      <Nav />
+      <Home />
+      <About />
       <Skills />
+      <Work />
       <Contact />
-
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

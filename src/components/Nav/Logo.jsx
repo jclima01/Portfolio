@@ -3,6 +3,7 @@ import React from "react";
 const Logo = () => {
   return (
     <>
+    <div>JCLC</div>
       {/* <svg
         width="213"
         height="72"
