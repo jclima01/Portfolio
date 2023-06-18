@@ -26,12 +26,12 @@ const Nav = () => {
       {/* menu */}
       <ul className="hidden md:flex">
         <li>
-          <Link to="home" smooth={true} duration={500}>
+          <Link to="home" smooth={true} duration={500} >
             Home
           </Link>
         </li>
         <li>
-          <Link to="about" smooth={true} duration={500}>
+          <Link to="about" smooth={true} duration={500} >
             About
           </Link>
         </li>
@@ -53,7 +53,7 @@ const Nav = () => {
       </ul>
 
       {/* Hamburger */}
-      <div onClick={handleClick} className="md:hidden z-10">
+      <div onClick={handleClick} className="md:hidden z-10 p-4">
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
@@ -66,27 +66,27 @@ const Nav = () => {
         }
       >
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="home" smooth={true} duration={500} offset={-80}>
             Home
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="about" smooth={true} duration={500} offset={-80} >
             About
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="skills" smooth={true} duration={500} offset={-80}>
             Skills
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="work" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="work" smooth={true} duration={500} offset={-80}>
             Work
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="contact" smooth={true} duration={500} >
             Contact
           </Link>
         </li>
