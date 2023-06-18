@@ -5,6 +5,7 @@ import Skills from "./components/Skills/Skills.jsx";
 import { Route, Routes } from "react-router-dom";
 import About from "./components/About/About.jsx";
 import Work from "./components/Work/Work.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 function App() {
   return (
     <div className="font-outfit">
@@ -14,6 +15,7 @@ function App() {
       <Skills />
       <Work />
       <Contact />
+      <Footer/>
     </div>
   );
 }

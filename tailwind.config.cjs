@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        outfit: ["Outfit", "sans-serif"],
+        "Open Sans": ['Open Sans', "sans-serif"]
       },
     },
     plugins: [],
