@@ -5,10 +5,10 @@ const Footer = () => {
   return (
     <footer className="bg-neutral-200 text-center text-white dark:bg-neutral-600">
       <div className="flex flex-row  justify-center py-2 gap-5  text-4xl">
-        <a href="#!" className=" text-neutral-800 dark:text-neutral-200">
+        <a href="https://github.com/jclima01" className=" text-neutral-800 dark:text-neutral-200">
           <FaGithub />
         </a>
-        <a href="#!" className="text-neutral-800 dark:text-neutral-200">
+        <a href="https://linkedin.com/jlimacaramico" className="text-neutral-800 dark:text-neutral-200">
           <FaLinkedin />
         </a>
       </div>
