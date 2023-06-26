@@ -34,13 +34,6 @@ export const works = [
   },
   {
     id: 2,
-    name: "moviedb",
-    image: RealEst,
-    github: "",
-    live: "",
-  },
-  {
-    id: 3,
     name: "foodie",
     image: Foodie,
     github: "https://github.com/jclima01/foodie",
@@ -54,7 +47,7 @@ export const works = [
     live: "https://fakepizza.netlify.app/",
   },
   {
-    id: 3,
+    id: 4,
     name: "moviedb",
     image: Moviedb,
     github: "https://github.com/jclima01/moviedb",
