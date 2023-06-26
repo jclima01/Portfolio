@@ -1,11 +1,9 @@
 import React, { useState } from "react";
 import {
   FaBars,
-  FaTimes,
   FaGithub,
   FaLinkedin,
-  FaFacebook,
-  FaLinkedinIn,
+  FaTimes,
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -18,7 +16,7 @@ const Nav = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+    <div className="fixed w-screen h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
         <Logo />
       </div>
@@ -26,12 +24,12 @@ const Nav = () => {
       {/* menu */}
       <ul className="hidden md:flex">
         <li>
-          <Link to="home" smooth={true} duration={500} >
+          <Link to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
         <li>
-          <Link to="about" smooth={true} duration={500} >
+          <Link to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
@@ -46,7 +44,7 @@ const Nav = () => {
           </Link>
         </li>
         <li>
-          <Link to="contact" smooth={true} duration={500}>
+          <Link to="contact" smooth={true} duration={500} offset={-80}>
             Contact
           </Link>
         </li>
@@ -71,7 +69,7 @@ const Nav = () => {
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="about" smooth={true} duration={500} offset={-80} >
+          <Link onClick={handleClick} to="about" smooth={true} duration={500} >
             About
           </Link>
         </li>
@@ -86,7 +84,7 @@ const Nav = () => {
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="contact" smooth={true} duration={500} >
+          <Link onClick={handleClick} to="contact" smooth={true} duration={500} offset={-80} >
             Contact
           </Link>
         </li>

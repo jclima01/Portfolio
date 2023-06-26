@@ -13,17 +13,17 @@ const Work = () => {
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-[#dea89f]">
             Work
           </p>
-          <p className="py-6">Estos son los proyectos en los que estuve involucrado recientemente</p>
+          <p className="py-6">Estos son los proyectos en los que estuve involucrado recientemente:</p>
         </div>
 
         {/* container for projects */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="grid  sm:grid-cols-3 gap-4">
           {/* Gird Item */}
           {project.map((item, index) => (
             <div
               key={index}
               style={{ backgroundImage: `url(${item.image})` }}
-              className="shadow-lg h-[50px] shadow-[#040c16] group container rounded-md 
+              className="shadow-lg shadow-[#040c16] group container rounded-md 
               flex justify-center text-center items-center mx-auto content-div "
             >
               {/* Hover effect for images */}

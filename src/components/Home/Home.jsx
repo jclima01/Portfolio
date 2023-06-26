@@ -8,9 +8,9 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="flex w-screen h-screen items-center justify-center bg-[#0a192f]"
+      className="flex w-screen h-full lg:h-screen items-center justify-center bg-[#0a192f]"
     >
-      <div className="flex max-w-[1300px] flex-col lg:flex-row items-center justify-center ">
+      <div className="flex max-w-[1000px] flex-col lg:flex-row items-center justify-center pt-24 ">
 
         {/* avatar */}
         <div className="w-96 border-2 shadow-md-[#dea89f] border-[#dea89f] rounded-full border-b-0  mx-auto px-8 flex flex-col justify-center ">

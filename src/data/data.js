@@ -20,18 +20,21 @@ import Figma from "../assets/figma.png";
 import Auth0 from "../assets/auth0.png";
 import AWS from "../assets/aws.png";
 import Stripe from "../assets/stripe.png";
+import Foodie from "../assets/foodie.png";
+import Fakepizza from "../assets/fakepizza.png";
+import Moviedb from "../assets/moviedb.png";
 
 export const works = [
   {
     id: 1,
-    name: "Urbanbuy",
+    name: "urbanbuy",
     image: Urbanbuy,
     github: "https://github.com/jclima01/Proyecto-Final.git",
     live: "https://urbanbuy.netlify.app/",
   },
   {
     id: 2,
-    name: "Moviedb",
+    name: "moviedb",
     image: RealEst,
     github: "",
     live: "",
@@ -39,30 +42,35 @@ export const works = [
   {
     id: 3,
     name: "foodie",
-    image: WorkIm,
-    github: "",
-    live: "",
+    image: Foodie,
+    github: "https://github.com/jclima01/foodie",
+    live: "https://foodie-v1.netlify.app/",
   },
   {
     id: 3,
-    name: "foodie",
-    image: WorkIm,
-    github: "",
-    live: "",
+    name: "fake-pizza",
+    image: Fakepizza,
+    github: "https://github.com/jclima01/fakePizza",
+    live: "https://fakepizza.netlify.app/",
   },
   {
     id: 3,
-    name: "foodie",
-    image: WorkIm,
-    github: "",
-    live: "",
+    name: "moviedb",
+    image: Moviedb,
+    github: "https://github.com/jclima01/moviedb",
+    live: "https://mooviedb.netlify.app/",
   },
 ];
 export const techs = [
+  // {
+  //   id: 1,
+  //   name: "AWS",
+  //   image: AWS,
+  // },
   {
-    id: 1,
-    name: "AWS",
-    image: AWS,
+    id: 8,
+    name: "HTML",
+    image: HTML,
   },
   {
     id: 2,
@@ -70,15 +78,22 @@ export const techs = [
     image: CSS,
   },
   {
+    id: 9,
+    name: "JAVASCRIPT",
+    image: JavaScript,
+  },
+ 
+ 
+  {
     id: 3,
     name: "EXPRESS",
     image: Express,
   },
-  {
-    id: 4,
-    name: "FIGMA",
-    image: Figma,
-  },
+  // {
+  //   id: 4,
+  //   name: "FIGMA",
+  //   image: Figma,
+  // },
   {
     id: 5,
     name: "FIREBASE",
@@ -95,25 +110,15 @@ export const techs = [
     image: GitHub,
   },
   {
-    id: 8,
-    name: "HTML",
-    image: HTML,
-  },
-  {
-    id: 9,
-    name: "JAVASCRIPT",
-    image: JavaScript,
-  },
-  {
     id: 10,
     name: "MONGODB",
     image: Mongo,
   },
-  {
-    id: 11,
-    name: "NEXTJS",
-    image: NextJS,
-  },
+  // {
+  //   id: 11,
+  //   name: "NEXTJS",
+  //   image: NextJS,
+  // },
   {
     id: 12,
     name: "NODE",
@@ -140,14 +145,14 @@ export const techs = [
     image: Sequelize,
   },
   {
-    id: 17,
-    name: "STRIPE",
-    image: Stripe,
-  },
-  {
     id: 18,
     name: "TAILWINDCSS",
     image: Tailwind,
+  },
+  {
+    id: 17,
+    name: "STRIPE",
+    image: Stripe,
   },
   {
     id: 19,
