@@ -1,3 +1,0 @@
-[build]
-  command = "npx tailwindcss build ./src/input.css -o ./dist/output.css && <tu_comando_de_construcción>"
-  publish = "dist/"
