@@ -5,7 +5,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 
 import { Link } from "react-scroll";
 import Logo from "./Logo";
-import resume from "../../images/cv - Juan Cruz Lima Caramico.pdf";
+import resume from "../../images/resume.pdf";
 const Nav = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
