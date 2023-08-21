@@ -16,20 +16,15 @@ const About = () => {
         </div>
         <div className="max-w-[1000px] w-full grid md:grid-cols-2 gap-8 px-4">
           <div className="md:text-right text-4xl font-bold">
-            <p>Te invito a que conozcas un poco más sobre mí.</p>
+            <p>I invite you to get to know a bit more about me and my goals</p>
           </div>
           <div>
             <p>
-              Me considero una persona apasionada por el aprendizaje, adquirir
-              conocimientos e interactuar con las personas. Me he formado a lo
-              largo de los años muchas veces de forma autodidacta, así como
-              también en el ambito formal, obteniendo el título de Profesor de
-              matemática para el nivel secundario de la República Argentina,
-              cursando 2 años para técnico superior en análisis en sistemas y
-              obteniendo diferentes certificaciones de programación tanto en
-              CoderHouse como en Henry. Por mi curiosidad, disfruto enfrentando
-              nuevos desafíos y explorando diferentes enfoques para resolver
-              problemas complejos, conformando sólidos equipos de trabajo.
+              To progress in my career within an organization that prioritizes
+              personal growth and fosters diverse team collaboration. Over time,
+              my aspiration is to lead these teams, nurture the company's
+              culture, and drive the creation of innovative technological
+              solutions.
             </p>
           </div>
         </div>
